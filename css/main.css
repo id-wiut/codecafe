@@ -61,7 +61,7 @@ section.hero {
   display: flex;
   padding: 7% 64px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .left img {
   border-radius: 12px;
