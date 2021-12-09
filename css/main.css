@@ -78,3 +78,28 @@ footer {
   background: #222;
   text-align: center;
 }
+form {
+  background-color: #fff;
+  padding: 64px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+input,
+textarea {
+  border: none;
+  padding: 8px 24px;
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid transparent;
+  outline: none;
+}
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid #333;
+  background: #f4f4f4;
+}
