@@ -55,9 +55,8 @@ nav a:hover {
   border-radius: 0px;
 }
 section {
-  height: 60vh;
+  min-height: 60vh;
 }
-
 section.hero {
   display: flex;
   padding: 7% 64px;
